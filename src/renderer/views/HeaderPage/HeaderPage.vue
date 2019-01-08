@@ -39,6 +39,11 @@
           user: '系统管理员',
           menus: menu
         }
+      },
+      methods: {
+        handleSelect (key, keyPath) {
+          console.log(key, keyPath)
+        }
       }
     }
 </script>
