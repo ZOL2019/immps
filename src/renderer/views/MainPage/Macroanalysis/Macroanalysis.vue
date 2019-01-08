@@ -1,12 +1,19 @@
 <template>
     <div>
-        <div style="height: 60px;line-height: 60px;">
-            <span>经济指标总览</span>
-            <el-date-picker
-                    v-model="mainData.year"
-                    type="year"
-                    placeholder="选择年">
-            </el-date-picker>
+        <div class="top-banner">
+            <div class="banner-box">
+                <div class="content-left">
+                    <span>经济指标总览</span>
+                    <el-date-picker
+                            style="width: 100px"
+                            v-model="mainData.year"
+                            type="year"
+                            placeholder="选择年"
+                            :picker-options="timeOption"
+                            size="mini">
+                    </el-date-picker>
+                </div>
+            </div>
         </div>
         <v-chart :options="option"/>
     </div>
@@ -19,7 +26,14 @@
       data () {
         return {
           mainData: {
-            year: '2018'
+            year: Date.now()
+          },
+          timeOption: {
+            disabledDate: (time) => {
+              if (this.mainData.year !== '') {
+                return time.getTime() > Date.now()
+              }
+            }
           },
           option: {
             xAxis: {
@@ -41,6 +55,17 @@
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+    .top-banner{
+        height: 60px;
+        line-height: 60px;
+        .banner-box{
+            /*padding: 0 50px 0 50px;*/
+            font-size: 14px;
+            height: 60px;
+            .content-left{
+                width: 200px;
+            }
+        }
+    }
 </style>
