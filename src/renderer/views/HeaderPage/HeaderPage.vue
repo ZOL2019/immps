@@ -13,47 +13,14 @@
                              @select="handleSelect"
                              background-color="#545c64"
                              text-color="#fff"
-                             active-text-color="#ffd04b">
-                        <el-submenu index="1">
-                            <template slot="title" class="el-submenu-title" style="padding: 0 5px">宏观分析</template>
-                            <el-menu-item index="1-1">选项1</el-menu-item>
-                            <el-menu-item index="1-2">选项2</el-menu-item>
-                            <el-menu-item index="1-3">选项3</el-menu-item>
-                        </el-submenu>
-                        <el-submenu index="2">
-                            <template slot="title">区域分析</template>
-                            <el-menu-item index="2-1">选项1</el-menu-item>
-                            <el-menu-item index="2-2">选项2</el-menu-item>
-                            <el-menu-item index="2-3">选项3</el-menu-item>
-                        </el-submenu>
-                        <el-submenu index="3">
-                            <template slot="title">专题分析</template>
-                            <el-menu-item index="3-1">选项1</el-menu-item>
-                            <el-menu-item index="3-2">选项2</el-menu-item>
-                            <el-menu-item index="3-3">选项3</el-menu-item>
-                        </el-submenu>
-                        <el-submenu index="4">
-                            <template slot="title">报告中心</template>
-                            <el-menu-item index="4-1">选项1</el-menu-item>
-                            <el-menu-item index="4-2">选项2</el-menu-item>
-                            <el-menu-item index="4-3">选项3</el-menu-item>
-                        </el-submenu>
-                        <!--<a href="" target="_blank"></a>-->
-                        <el-submenu index="5">
-                            <template slot="title">数据目录</template>
-                            <el-menu-item index="5-1">选项1</el-menu-item>
-                            <el-menu-item index="5-2">选项2</el-menu-item>
-                            <el-menu-item index="5-3">选项3</el-menu-item>
-                        </el-submenu>
-                        <el-menu-item index="6" class="margin-item">
-                            <i class="el-icon-loading"></i>
-                            <span slot="title">控制台</span>
-                        </el-menu-item>
-                        <el-submenu index="7">
-                            <template slot="title"><i class="el-icon-setting"></i>{{user}}</template>
-                            <el-menu-item index="7-1">选项1</el-menu-item>
-                            <el-menu-item index="7-2">选项2</el-menu-item>
-                            <el-menu-item index="7-3">选项3</el-menu-item>
+                             active-text-color="#ffd04b" v-for="item in menus" v-if="!item.hidden">
+                        <el-submenu :index="item.index" v-text="item.name">
+                            <template slot="title"></template>
+                            <template v-for="child in item.children" v-if="!child.hidden">
+                                <router-link :to="child.path" :key="child.name" style="text-decoration:none">
+                                    <el-menu-item :index="child.index" v-text="child.name"></el-menu-item>
+                                </router-link>
+                            </template>
                         </el-submenu>
                     </el-menu>
                 </div>
@@ -63,12 +30,14 @@
 </template>
 
 <script>
+    import menu from '@/config/menu-config'
     export default {
       name: 'HeaderPage',
       data () {
         return {
           activeIndex: '1',
-          user: '系统管理员'
+          user: '系统管理员',
+          menus: menu
         }
       }
     }
