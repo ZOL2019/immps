@@ -70,6 +70,11 @@
           activeIndex: '1',
           user: '系统管理员'
         }
+      },
+      methods: {
+        handleSelect (key, keyPath) {
+          console.log(key, keyPath)
+        }
       }
     }
 </script>

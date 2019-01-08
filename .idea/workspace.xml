@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="540a146b-7456-438e-9d5f-f315adfd2612" name="Default" comment="布局 综合 监控管理 平台&#10;添加 vue-echarts 模块">
-      <change afterPath="$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Annualanalysis/Annualanalysis.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Monthlyanalysis/Monthlyanalysis.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue" afterDir="false" />
+    <list default="true" id="540a146b-7456-438e-9d5f-f315adfd2612" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/views/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/views/macroanalysis/Macroanalysis.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,21 +25,8 @@
       <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/views/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#493#541#0" expanded="true" />
-                <element signature="e#2912#3811#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPage.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,15 +34,37 @@
       <file leaf-file-name="HeaderPage.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+            <state relative-caret-position="322">
+              <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#1;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#template#0;n#el-submenu#0;n#el-menu#0;n#div#1;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#3710#4317#0" />
-                <element signature="e#4331#4502#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Macroanalysis.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,9 +93,11 @@
         <option value="$PROJECT_DIR$/src/renderer/views/macroanalysis/Macroanalysis.vue" />
         <option value="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Annualanalysis/Annualanalysis.vue" />
         <option value="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Monthlyanalysis/Monthlyanalysis.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue" />
         <option value="$PROJECT_DIR$/src/renderer/views/Index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue" />
         <option value="$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue" />
+        <option value="$PROJECT_DIR$/static/main/css/main.scss" />
+        <option value="$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue" />
       </list>
     </option>
   </component>
@@ -170,6 +180,15 @@
             <path>
               <item name="immps" type="b2602c69:ProjectViewProjectNode" />
               <item name="immps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Macroanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immps" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,6 +202,19 @@
               <item name="immps" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immps" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immps" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,7 +287,8 @@
       <updated>1546591938596</updated>
       <workItem from="1546591939996" duration="80000" />
       <workItem from="1546592056382" duration="4117000" />
-      <workItem from="1546822757757" duration="18189000" />
+      <workItem from="1546822757757" duration="18844000" />
+      <workItem from="1546909432450" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="布局 综合 监控管理 平台">
       <created>1546596161581</created>
@@ -271,11 +304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546851416306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整 项目结构">
+      <created>1546854742036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546854742036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22386000" />
+    <option name="totallyTimeSpent" value="25062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -285,7 +325,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2889785" />
       <window_info id="npm" order="2" sideWeight="0.5034325" side_tool="true" weight="0.24957842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,7 +339,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,17 +350,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="布局 综合 监控管理 平台" />
     <MESSAGE value="布局 综合 监控管理 平台&#10;添加 vue-echarts 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="布局 综合 监控管理 平台&#10;添加 vue-echarts 模块" />
+    <MESSAGE value="调整 项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整 项目结构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/renderer/views/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/views/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
           <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-          <folding>
-            <element signature="e#493#541#0" expanded="true" />
-            <element signature="e#2912#3811#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Monthlyanalysis/Monthlyanalysis.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Annualanalysis/Annualanalysis.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -417,43 +454,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Monthlyanalysis/Monthlyanalysis.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/views/HeaderPage/HeaderPage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="322">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#1;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#template#0;n#el-submenu#0;n#el-menu#0;n#div#1;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#3710#4317#0" />
-            <element signature="e#4331#4502#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/views/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#493#541#0" expanded="true" />
-            <element signature="e#2912#3811#0" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/MainPage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="352">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-ui/packages/date-picker/src/picker/date-picker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

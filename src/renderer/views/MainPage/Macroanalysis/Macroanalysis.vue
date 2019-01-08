@@ -1,5 +1,13 @@
 <template>
     <div>
+        <div style="height: 60px;line-height: 60px;">
+            <span>经济指标总览</span>
+            <el-date-picker
+                    v-model="mainData.year"
+                    type="year"
+                    placeholder="选择年">
+            </el-date-picker>
+        </div>
         <v-chart :options="option"/>
     </div>
 </template>
@@ -10,6 +18,9 @@
       name: 'Macroanalysis',
       data () {
         return {
+          mainData: {
+            year: '2018'
+          },
           option: {
             xAxis: {
               type: 'category',
