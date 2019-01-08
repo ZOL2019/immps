@@ -14,8 +14,8 @@
                              background-color="#545c64"
                              text-color="#fff"
                              active-text-color="#ffd04b" v-for="item in menus" v-if="!item.hidden">
-                        <el-submenu :index="item.index" v-text="item.name">
-                            <template slot="title"></template>
+                        <el-submenu :index="item.index">
+                            <template slot="title">{{item.name}}</template>
                             <template v-for="child in item.children" v-if="!child.hidden">
                                 <router-link :to="child.path" :key="child.name" style="text-decoration:none">
                                     <el-menu-item :index="child.index" v-text="child.name"></el-menu-item>
