@@ -12,15 +12,17 @@ module.exports = [
         hidden: true
       },
       {
-        index: '1-1',
         path: '/macroscopicAnalysis/annualIndicators',
-        name: '年度经济指标总览',
+        index: '1-1',
+        name: 'MacroscopicAnalysis/AnnualIndicators',
+        title: '年度经济指标总览',
         hidden: false
       },
       {
         index: '1-2',
         path: '/macroscopicAnalysis/monthlyIndicators',
-        name: '月度经济指标总览',
+        name: 'MacroscopicAnalysis/MonthlyIndicators',
+        title: '月度经济指标总览',
         hidden: false
       }
     ]
@@ -34,19 +36,22 @@ module.exports = [
       {
         index: '2-1',
         path: '/regionalAnalysis/office',
-        name: 'office',
+        name: 'RegionalAnalysis/Office',
+        title: '办事处',
         hidden: false
       },
       {
         index: '2-2',
         path: '/regionalAnalysis/park',
-        name: 'park',
+        name: 'RegionalAnalysis/Park',
+        title: '园区',
         hidden: false
       },
       {
         index: '2-3',
         path: '/regionalAnalysis/district',
-        name: 'district',
+        name: 'RegionalAnalysis/District',
+        title: '片区',
         hidden: false
       }
     ]

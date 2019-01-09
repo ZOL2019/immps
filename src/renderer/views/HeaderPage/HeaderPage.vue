@@ -13,15 +13,17 @@
                              @select="handleSelect"
                              background-color="#545c64"
                              text-color="#fff"
-                             active-text-color="#ffd04b" v-for="item in menus" v-if="!item.hidden">
-                        <el-submenu :index="item.index">
-                            <template slot="title">{{item.name}}</template>
-                            <template v-for="child in item.children" v-if="!child.hidden">
-                                <router-link :to="child.path" :key="child.name" style="text-decoration:none">
-                                    <el-menu-item :index="child.index" v-text="child.name"></el-menu-item>
-                                </router-link>
-                            </template>
-                        </el-submenu>
+                             active-text-color="#ffd04b">
+                        <template v-for="item in menus" v-if="!item.hidden">
+                            <el-submenu :index="item.index">
+                                <template slot="title">{{item.name}}</template>
+                                <template v-for="child in item.children" v-if="!child.hidden">
+                                    <router-link :to="child.path" :key="child.title" style="text-decoration:none">
+                                        <el-menu-item :index="child.index" v-text="child.title"></el-menu-item>
+                                    </router-link>
+                                </template>
+                            </el-submenu>
+                        </template>
                     </el-menu>
                 </div>
             </el-header>

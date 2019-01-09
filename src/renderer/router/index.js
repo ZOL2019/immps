@@ -9,8 +9,8 @@ export const constantRouterMap = []
 menus.forEach((item) => {
   item.children.forEach((child) => {
     constantRouterMap.push({
-      path: `/`,
-      name: child.name,
+      path: `${child.path}`,
+      name: child.title,
       component: () => import(`@/views/${child.name}`)
     })
   })
