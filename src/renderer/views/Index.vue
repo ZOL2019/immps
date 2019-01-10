@@ -27,16 +27,9 @@
 </script>
 <style>
     @import "../../../static/index/css/index.scss";
+    @import '../assets/css/common.scss';
 </style>
 <style scoped lang="scss">
-    .container-header{
-        background-color: #545c64;
-        overflow: hidden;
-    }
-    .container-main{
-        background-color: #fff;
-        overflow: hidden;
-    }
     .box {
         margin:10px 0 0 -6px;
         width: 1200px;
