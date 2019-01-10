@@ -1,5 +1,5 @@
 <template>
-    
+    <div>Annualanalysis</div>
 </template>
 
 <script>

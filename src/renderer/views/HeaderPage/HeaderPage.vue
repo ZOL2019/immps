@@ -7,45 +7,43 @@
                     <div class="logo-text">综合监控管理平台</div>
                 </div>
                 <div class="text-left menu">
-                    <el-menu :default-active="activeIndex"
+                    <el-menu :default-active="$route.path"
+                             router
                              class="el-menu-demo"
                              mode="horizontal"
                              @select="handleSelect"
                              background-color="#545c64"
                              text-color="#fff"
                              active-text-color="#ffd04b">
-                        <el-submenu index="1">
-                            <template slot="title" class="el-submenu-title" style="padding: 0 5px">宏观分析</template>
-                            <el-menu-item index="1-1">选项1</el-menu-item>
-                            <el-menu-item index="1-2">选项2</el-menu-item>
-                            <el-menu-item index="1-3">选项3</el-menu-item>
-                        </el-submenu>
+                        <el-menu-item index="1" class="margin-item-one">
+                            <span slot="title">首页</span>
+                        </el-menu-item>
                         <el-submenu index="2">
-                            <template slot="title">区域分析</template>
+                            <template slot="title" class="el-submenu-title" style="padding: 0 5px">宏观分析</template>
                             <el-menu-item index="2-1">选项1</el-menu-item>
                             <el-menu-item index="2-2">选项2</el-menu-item>
                             <el-menu-item index="2-3">选项3</el-menu-item>
                         </el-submenu>
                         <el-submenu index="3">
-                            <template slot="title">专题分析</template>
+                            <template slot="title">区域分析</template>
                             <el-menu-item index="3-1">选项1</el-menu-item>
                             <el-menu-item index="3-2">选项2</el-menu-item>
                             <el-menu-item index="3-3">选项3</el-menu-item>
                         </el-submenu>
                         <el-submenu index="4">
-                            <template slot="title">报告中心</template>
+                            <template slot="title">专题分析</template>
                             <el-menu-item index="4-1">选项1</el-menu-item>
                             <el-menu-item index="4-2">选项2</el-menu-item>
                             <el-menu-item index="4-3">选项3</el-menu-item>
                         </el-submenu>
-                        <!--<a href="" target="_blank"></a>-->
                         <el-submenu index="5">
-                            <template slot="title">数据目录</template>
+                            <template slot="title">报告中心</template>
                             <el-menu-item index="5-1">选项1</el-menu-item>
                             <el-menu-item index="5-2">选项2</el-menu-item>
                             <el-menu-item index="5-3">选项3</el-menu-item>
                         </el-submenu>
-                        <el-menu-item index="6" class="margin-item">
+                        <!--<a href="" target="_blank"></a>-->
+                        <el-menu-item index="6" class="margin-item-two">
                             <i class="el-icon-loading"></i>
                             <span slot="title">控制台</span>
                         </el-menu-item>
@@ -74,6 +72,7 @@
       methods: {
         handleSelect (key, keyPath) {
           console.log(key, keyPath)
+          console.error(this.$route.name)
         }
       }
     }
@@ -115,7 +114,10 @@
             display: block;
             line-height: 60px;
             height: 60px;
-            .margin-item{
+            .margin-item-one{
+                margin-left: 20px;
+            }
+            .margin-item-two{
                 margin-left: 80px;
             }
         }

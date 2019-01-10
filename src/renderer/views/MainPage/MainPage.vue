@@ -2,19 +2,15 @@
     <div>
         <el-container class="main">
             <el-main style="margin: 0 auto">
-                <div class="v-charts">
-                <macroanalysis/>
-            </div>
+                <router-view/>
             </el-main>
         </el-container>
     </div>
 </template>
 
 <script>
-    import Macroanalysis from './Macroanalysis/Macroanalysis'
     export default {
-      name: 'MainPage',
-      components: {Macroanalysis}
+      name: 'MainPage'
     }
 </script>
 <style>
