@@ -21,15 +21,15 @@
       <file leaf-file-name="Macroanalysis.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+            <state relative-caret-position="179">
+              <caret line="164" column="19" lean-forward="true" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#el-date-picker#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#2099#2130#0" expanded="true" />
                 <element signature="e#865#1044#0" />
                 <element signature="e#1545#1798#0" />
                 <element signature="e#1737#1782#0" />
                 <element signature="e#2069#2101#0" />
-                <element signature="e#2526#2542#0" />
               </folding>
             </state>
           </provider>
@@ -290,7 +290,7 @@
       <workItem from="1546822757757" duration="18844000" />
       <workItem from="1546909432450" duration="4901000" />
       <workItem from="1547112640151" duration="1134000" />
-      <workItem from="1547169173889" duration="8274000" />
+      <workItem from="1547169173889" duration="10310000" />
     </task>
     <task id="LOCAL-00001" summary="布局 综合 监控管理 平台">
       <created>1546596161581</created>
@@ -334,22 +334,29 @@
       <option name="project" value="LOCAL" />
       <updated>1547112795364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="首页布局 success">
+      <created>1547193814759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547193814759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41142000" />
+    <option name="totallyTimeSpent" value="43178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="179" y="39" width="1224" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49315068" visible="true" weight="0.29763913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49315068" visible="true" weight="0.29763913" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.48387095" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32822084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32822084" />
       <window_info id="npm" order="2" sideWeight="0.5068493" side_tool="true" weight="0.29763913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293011" />
@@ -405,7 +412,8 @@
     <MESSAGE value="调整 项目结构 MainPage" />
     <MESSAGE value="调整 项目结构 导航绑定 router" />
     <MESSAGE value="调整 项目结构 去掉 错误绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整 项目结构 去掉 错误绑定" />
+    <MESSAGE value="首页布局 success" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页布局 success" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/renderer/views/Index.vue">
@@ -526,11 +534,11 @@
           <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#el-date-picker#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2099#2130#0" expanded="true" />
             <element signature="e#865#1044#0" />
             <element signature="e#1545#1798#0" />
             <element signature="e#1737#1782#0" />
             <element signature="e#2069#2101#0" />
-            <element signature="e#2526#2542#0" />
           </folding>
         </state>
       </provider>
@@ -763,15 +771,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/views/MainPage/Macroanalysis/Macroanalysis.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="179">
+          <caret line="164" column="19" lean-forward="true" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#el-date-picker#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2099#2130#0" expanded="true" />
             <element signature="e#865#1044#0" />
             <element signature="e#1545#1798#0" />
             <element signature="e#1737#1782#0" />
             <element signature="e#2069#2101#0" />
-            <element signature="e#2526#2542#0" />
           </folding>
         </state>
       </provider>
