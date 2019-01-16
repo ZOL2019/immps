@@ -25,11 +25,21 @@
         <div class="middle-content">
             <div class="middle-box">
                 <div class="content-box">
-                    <div class="box-left text-left">1</div>
+                    <div class="box-left text-left">
+                        <div class="left text-left">
+                            <font-awesome-icon :icon="['fas', 'desktop']" />
+                        </div>
+                        <div class="right text-left">
+                            <div class="text-content text-left">1</div>
+                            <div class="text-chart text-left">2</div>
+                        </div>
+                    </div>
                     <div class="box-right text-left">2</div>
                 </div>
                 <div class="content-box">
-                    <div class="box-left text-left">1</div>
+                    <div class="box-left text-left">
+
+                    </div>
                     <div class="box-right text-left">2</div>
                 </div>
                 <div class="content-box">
@@ -313,6 +323,22 @@
                 .box-left{
                     width: 530px;
                     height: 140px;
+                    .left{
+                        width: 80px;
+                        height: 140px;
+                        line-height: 140px;
+                    }
+                    .right{
+                        width: 450px;
+                        height: 140px;
+                        line-height: 140px;
+                        .text-content{
+                            width: 150px;
+                        }
+                        .text-chart{
+                            width: 300px;
+                        }
+                    }
                 }
                 .box-right{
                     margin-left: 40px;
