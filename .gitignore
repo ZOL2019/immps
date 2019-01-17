@@ -82,3 +82,4 @@ typings/
 *.iml
 out
 gen
+dist/electron/main.js
