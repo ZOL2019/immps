@@ -359,7 +359,7 @@
     $background_icon_five: #77cca3;
     $background_icon_six: #ffcc33;
     $background_icon_seven: #d6f22d;
-    $background_content: #fefefe;
+    $background_content: #e9e9e9;
     .text-left{
         float: left;
         text-align: left;
@@ -400,6 +400,7 @@
                         width: 80px;
                         height: 140px;
                         color: #fff;
+                        border-radius: 5px;
                         .top{
                             margin-top: 40px;
                             height: 40px;
@@ -432,6 +433,7 @@
                         background: $background_content;
                         width: 450px;
                         height: 140px;
+                        border-radius: 5px;
                         .text-content{
                             height: 140px;
                             width: 150px;
@@ -451,6 +453,7 @@
                         width: 80px;
                         height: 140px;
                         color: #fff;
+                        border-radius: 5px;
                         .top{
                             margin-top: 40px;
                             height: 40px;
@@ -482,6 +485,7 @@
                         background: $background_content;
                         width: 450px;
                         height: 140px;
+                        border-radius: 5px;
                         .text-content{
                             height: 140px;
                             width: 150px;
@@ -504,6 +508,7 @@
                         width: 80px;
                         height: 200px;
                         color: #fff;
+                        border-radius: 5px;
                         .top{
                             margin-top: 70px;
                             height: 40px;
