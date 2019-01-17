@@ -25,13 +25,27 @@
         <div class="middle-content">
             <div class="middle-box">
                 <div class="content-box-top">
-                    <div class="left-icon color1">
-                        <font-awesome-icon :icon="['fas', 'school']" size="3x"/>
+                    <div class="left-icon background-color3">
+                        <div class="icon-center">
+                            <font-awesome-icon :icon="['fas', 'school']" size="3x"/>
+                        </div>
                     </div>
-                    <div class="box-top color2">1</div>
-                    <div class="box-top color1">2</div>
-                    <div class="box-top color2">3</div>
-                    <div class="box-top color1">4</div>
+                    <div class="box-top background-color1">
+                        <div class="top-title">年度生产总值</div>
+                        <div class="top-count color1">9999.99 万元</div>
+                    </div>
+                    <div class="box-top background-color2">
+                        <div class="top-title">去年同期生产总值</div>
+                        <div class="top-count color2">7999.99 万元</div>
+                    </div>
+                    <div class="box-top background-color1">
+                        <div class="top-title">同比增长总值</div>
+                        <div class="top-count color1">2000.99 万元</div>
+                    </div>
+                    <div class="box-top background-color2">
+                        <div class="top-title">同比增长总值</div>
+                        <div class="top-count color2">+ 31.98 %</div>
+                    </div>
                 </div>
                 <div class="content-box-bottom">
                     <div class="box-bottom">
@@ -68,7 +82,7 @@
             }
           },
           option: {
-            backgroundColor: '#344b58',
+            backgroundColor: '#e9e9e9',
             'title': {
               'text': '生产总值',
               'subtext': '',
@@ -331,14 +345,33 @@
         height: 660px;
         overflow: hidden;
         .middle-box{
+            padding: 0 50px 0 50px;
             font-size: 14px;
             .content-box-top{
                 width: 1200px;
                 margin-top: 10px;
+                height: 130px;
                 .box-top{
-                    width: 238px;
+                    width: 255px;
                     height: 130px;
                     float: left;
+                    .top-title{
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                    .top-count{
+                        width: 200px;
+                        height: 50px;
+                        font-size: 24px;
+                        margin-top: 20px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        /*background: rgba(242,242,242,242);*/
+                        color: #fff;
+                        padding: 0;
+                    }
                 }
             }
             .content-box-bottom{
@@ -348,26 +381,33 @@
                     width: 1200px;
                     height: 600px;
                     .bottom-right{
-                        width: 1020px;
+                        width: 1100px;
                         height: 600px;
                         .echarts{
-                            width: 1020px;
-                            height: 540px;
+                            width: 1100px;
+                            height: 520px;
                         }
                     }
                 }
             }
         }
     }
-    .color1{
-        background: rgb(215,215,215);
+    .background-color1{
+        background: rgba(0, 238, 227, 0.46);
     }
-    .color2{
-        background: rgb(242,242,242);
+    .background-color2{
+        background: rgba(255, 142, 119, 0.5);
+    }
+    .background-color3{
+        background: rgba(255, 253, 52, 0.5);
     }
     .left-icon{
-        width: 68px;
+        width: 80px;
         height: 130px;
         float: left;
+    }
+    .icon-center{
+        margin-top: 35px;
+        margin-left: 14px;
     }
 </style>
