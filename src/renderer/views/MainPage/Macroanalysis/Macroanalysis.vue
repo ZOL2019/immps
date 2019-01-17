@@ -41,7 +41,7 @@
                                 <font-awesome-icon :icon="['fas', 'yen-sign']" class="icon"/>
                             </div>
                             <div class="bottom">
-                                <div class="icon-text">规模</div>
+                                <div class="icon-text">财政</div>
                             </div>
                         </div>
                         <div class="right text-left">
@@ -57,7 +57,7 @@
                                 <font-awesome-icon :icon="['fas', 'desktop']" class="icon"/>
                             </div>
                             <div class="bottom">
-                                <div class="icon-text">规模</div>
+                                <div class="icon-text">投资</div>
                             </div>
                         </div>
                         <div class="right text-left">
@@ -151,7 +151,8 @@
             }
           },
           option: {
-            backgroundColor: '#fff',
+            backgroundColor: '#e9e9e9',
+            borderRadius: '5',
             title: {
               text: '旅客流量（万人次）',
               textStyle: {
@@ -372,6 +373,8 @@
             padding: 0 50px 0 50px;
             /*padding: 0 50px 0 50px;*/
             font-size: 14px;
+            font-weight: bold;
+            color: #333;
             height: 60px;
             .content-left{
                 width: 1000px;
@@ -531,8 +534,11 @@
                     .bottom-right{
                         width: 1020px;
                         height: 200px;
+                        background: $background_content;
+                        border-radius: 5px;
                         .echarts{
-                            width: 1020px;
+                            margin: 0 10px 0 10px;
+                            width: 1000px;
                             height: 200px;
                         }
                     }
