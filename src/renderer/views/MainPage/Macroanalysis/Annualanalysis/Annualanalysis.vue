@@ -25,7 +25,7 @@
         <div class="middle-content">
             <div class="middle-box">
                 <div class="content-box-top">
-                    <div class="left-icon background-color3">
+                    <div class="left-icon background-color2">
                         <div class="icon-center">
                             <font-awesome-icon :icon="['fas', 'school']" size="3x"/>
                         </div>
@@ -82,7 +82,7 @@
             }
           },
           option: {
-            backgroundColor: '#e9e9e9',
+            backgroundColor: '#545c64',
             'title': {
               'text': '生产总值',
               'subtext': '',
@@ -355,11 +355,13 @@
                     width: 255px;
                     height: 130px;
                     float: left;
+                    border-radius: 5px;
                     .top-title{
-                        font-size: 24px;
+                        font-size: 18px;
                         font-weight: bold;
                         margin-left: 20px;
                         margin-top: 15px;
+                        color: #333;
                     }
                     .top-count{
                         width: 200px;
@@ -368,7 +370,6 @@
                         margin-top: 20px;
                         margin-left: auto;
                         margin-right: auto;
-                        /*background: rgba(242,242,242,242);*/
                         color: #fff;
                         padding: 0;
                     }
@@ -393,18 +394,16 @@
         }
     }
     .background-color1{
-        background: rgba(0, 238, 227, 0.46);
+        background: rgba(0, 188, 238, 0.46);
     }
     .background-color2{
         background: rgba(255, 142, 119, 0.5);
-    }
-    .background-color3{
-        background: rgba(255, 253, 52, 0.5);
     }
     .left-icon{
         width: 80px;
         height: 130px;
         float: left;
+        border-radius: 5px;
     }
     .icon-center{
         margin-top: 35px;
